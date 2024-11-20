@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gnaneshwari's ECE Portfolio</title>
+  <link rel="stylesheet" href="chinnu1.css">
+</head>
+<body>
+
+  <!-- Navigation Menu -->
+  <header>
+    <nav>
+      <h1>Gnaneshwari's Portfolio</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="home-content">
+      <h1>Welcome to My ECE Portfolio</h1>
+      <p>I'm Gnaneshwari, an Electronics and Communication Engineering student and web developer passionate about combining electronics with technology to create meaningful projects.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a dedicated ECE student with a strong interest in web development and electronics projects. This portfolio showcases some of my best work in electronics and communication engineering.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <!-- Project 1 -->
+      <div class="project">
+        <h3>IoT Smart Home System</h3>
+        <p>Developed a smart home prototype using sensors and microcontrollers to remotely control lighting, temperature, and security features.</p>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project">
+        <h3>Wireless Communication System</h3>
+        <p>Designed a wireless data transmission system using radio frequency modules to demonstrate remote communication for sensor networks.</p>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project">
+        <h3>Digital Signal Processing with MATLAB</h3>
+        <p>Implemented real-time audio signal processing algorithms, such as filtering and modulation, using MATLAB and Simulink.</p>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project">
+        <h3>Microcontroller-Based Automation</h3>
+        <p>Built an automation system using Arduino to control various devices, showcasing knowledge in microcontroller programming and interfacing.</p>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="project">
+        <h3>Embedded System for Health Monitoring</h3>
+        <p>Developed a wearable device to monitor vital signs, featuring real-time data processing and Bluetooth communication with a mobile app.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you're interested in collaborating or learning more about my projects, feel free to get in touch!</p>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="4" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+ 
